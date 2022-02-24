@@ -2,7 +2,6 @@ build_rules:
   - id: allow-zero-findings
     finding_types:
       - vuln
-      - secret
       - insight
       - "*"
     severity:
